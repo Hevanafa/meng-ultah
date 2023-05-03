@@ -5,6 +5,7 @@ specifiers:
   '@types/react-dom': ^18.0.11
   '@typescript-eslint/eslint-plugin': ^5.57.1
   '@typescript-eslint/parser': ^5.57.1
+  '@vercel/analytics': ^1.0.1
   '@vitejs/plugin-react-swc': ^3.0.0
   eslint: ^8.38.0
   eslint-plugin-react-hooks: ^4.6.0
@@ -15,6 +16,7 @@ specifiers:
   vite: ^4.3.2
 
 dependencies:
+  '@vercel/analytics': 1.0.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -579,6 +581,10 @@ packages:
       '@typescript-eslint/types': 5.59.2
       eslint-visitor-keys: 3.4.0
     dev: true
+
+  /@vercel/analytics/1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
+    dev: false
 
   /@vitejs/plugin-react-swc/3.3.0_vite@4.3.4:
     resolution: {integrity: sha512-Ycg+n2eyCOTpn/wRy+evVo859+hw7qCj9iaX5CMny6x1fx1Uoq0xBG+a98lFtwLNGfGEnpI0F26YigRuxCRkwg==}
