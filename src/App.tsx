@@ -12,6 +12,14 @@ function Photo() {
   </>;
 }
 
+function About() {
+  return <>
+  <div>&nbsp;</div>
+  <div>App By Hevanafa (May 2023)</div>
+  <div>Made with Vite + React + TypeScript + SWC + Vercel</div>
+  </>;
+}
+
 export default function App() {
   
   const [now, setNow] = useState(new Date());
@@ -59,11 +67,14 @@ export default function App() {
         s > 0 ? `${s} detik` : ""
       ].filter(str => str.length > 0).join(", ") + " "}
       menuju hari ulang tahun</div>
+
+      <About />
     </div>;
   } else {
     return <div className="card">
       <Photo />
       <h1>HBD Meng Imut!  (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠) 🎉🎂🎈</h1>
+      <About />
     </div>
   }
 }
